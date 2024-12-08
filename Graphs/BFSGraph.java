@@ -13,4 +13,12 @@ class BFSGraph {
             adjeList.add(new ArrayList<>());
         }
     }
+
+    public void addEdge(int source, int destination) {
+        adjeList.get(source).add(destination); //Add destination to the source`s list
+        adjeList.get(destination).add(source); // Add source to the destination`s list
+    }
+
 }
+
+
