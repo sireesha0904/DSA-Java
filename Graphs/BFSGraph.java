@@ -1,6 +1,8 @@
 //BFS implementation code
 package Graphs;
+import java.util.*;
 
-public class BFSGraph {
-    
+class BFSGraph {
+    private List<List<Integer>> adjeList;
+    private int vertices;
 }
