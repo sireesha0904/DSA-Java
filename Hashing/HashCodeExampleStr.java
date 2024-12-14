@@ -1,3 +1,4 @@
+//implementation of hashing methods
 package Hashing;
 public class HashCodeExampleStr {
     public static void main(String[] args) {
