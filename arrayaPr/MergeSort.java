@@ -8,14 +8,33 @@ public class MergeSort {
         if (array.length < 2) {
             return; // base condition
         }
-        
+
         // Step 2: Split the array into two halves
-        int mid = array.length / 2;  // Find the middle index
+        int mid = array.length / 2; // Find the middle index
         int[] left = Arrays.copyOfRange(array, 0, mid); // Copy the left half 
         int[] right = Arrays.copyOfRange(array, mid, array.length); // Copy the right half
 
         mergeSort(left);
         mergeSort(right);
+    }
+    
+    private static void merge(int[] array, int[] left, int[] right) {
+        int i = 0, j = 0, k = 0;
+        while (i < left.length && j < right.length) {
+            if (left[i] <= right[j]) 
+            {
+                array[k++] = left[k++];
+            }
+            else {
+                array[k++] = right[j++];
+            }
+        }
+        while (i < left.length) {
+            array[k++] = left[i++];
+        }
+        while (j < right.length) {
+            array[k++] = right[j++];
+        }
     }
     public static void main(String[] args) {
         int[] array = { 38, 27, 43, 3, 9, 82, 10 };
