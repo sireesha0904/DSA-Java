@@ -6,7 +6,7 @@ public class MergeSort {
 
         //STEP-1: Base condition (stop splitting if the array has 1 or 0 elements)
         if (array.length < 2) {
-            return; // base condition
+            return; // base condition for recursion
         }
 
         // Step 2: Split the array into two halves
