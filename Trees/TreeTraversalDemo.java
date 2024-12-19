@@ -1,5 +1,5 @@
 package Trees;
-
+// Tree Traversals 
 class Node {
     int data;
     Node left, right;
