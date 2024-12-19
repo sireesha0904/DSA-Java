@@ -1,5 +1,5 @@
 package Trees;
-
+// Calculate the Height of the tree 
 class Node {
     int data;
     Node left, right;
