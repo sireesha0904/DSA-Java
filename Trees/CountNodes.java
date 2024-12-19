@@ -4,6 +4,7 @@ class Node {
     int data;
     Node left, right;
 
+    //Construct
     Node(int value) {
         data = value;
         left = null;
