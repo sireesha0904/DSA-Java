@@ -1,5 +1,5 @@
 package Trees;
-
+// Count the number of nodes in the tree
 class Node {
     int data;
     Node left, right;
