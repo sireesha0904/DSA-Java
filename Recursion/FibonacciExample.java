@@ -9,7 +9,7 @@ public class FibonacciExample {
     }
     
     public static void main(String[] args) {
-        int n = 20;
+        int n = 6;
         for (int i = 0; i < n; i++) {
             System.out.print(fabinEx(i) + " ");
         }
