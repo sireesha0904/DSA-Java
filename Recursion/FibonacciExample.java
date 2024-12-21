@@ -1,25 +1,27 @@
 package Recursion;
 
 public class FibonacciExample {
-    static int count = 0;
+    static int count = 0; // Static variable to track recursive calls
 
     public static int fabinEx(int n) {
-        count++;
-        
-        if (n == 0 || n == 1) {
-            return n; // base case
+        count++; // Increment the count for each recursive call
+
+        if (n == 0) {
+            return 0; // Base case
+        }
+        if (n == 1) {
+            return 1; // Base case
         }
         return fabinEx(n - 1) + fabinEx(n - 2); // Recursive relation
     }
-    
+
     public static void main(String[] args) {
-        int n = 5;
-        count = 0;
+        int n = 6;
+
         for (int i = 0; i <= n; i++) {
-            System.out.print(fabinEx(i) + " ");
-        }
-        System.out.println();
-        System.out.println("Total number of recursive calls: " + count);
+            count = 0; // Reset count for each Fibonacci number
+            int result = fabinEx(i);
+            System.out.println("Fib(" + i + ") = " + result + ", Recursive Calls = " + count);
         }
     }
-
+}
