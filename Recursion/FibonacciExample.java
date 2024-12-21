@@ -1,7 +1,6 @@
 package Recursion;
 
 public class FibonacciExample {
-    
     public static int fabinEx(int n) {
         if (n == 0 || n == 1) {
             return n;
