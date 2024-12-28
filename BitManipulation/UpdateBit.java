@@ -16,11 +16,13 @@ public class UpdateBit {
             return setBit(number, position);
         }
     }
+
     public static void main(String[] args) {
         int number = 0b0101;
         int position = 1;
         int value = 1;
         int result = updateBit(number, position, value);
-        System.out.println("The bit at position " + position + " in " + number + " is " + result);
+         System.out.println("Number before updating the bit: " + Integer.toBinaryString(number));
+        System.out.println("Number after updating the bit: " + Integer.toBinaryString(result));
     }
 }
