@@ -9,6 +9,7 @@ public class clear {
         int number = 0b0101;
         int position = 2;
         int result = clearBit(number, position);
-        System.out.println("The bit at position " + position + " in " + number + " is " + result);
+        System.out.println("Number before clearing the bit: " + Integer.toBinaryString(number));
+        System.out.println("Number after clearing the bit: " + Integer.toBinaryString(result));
     }
 }
