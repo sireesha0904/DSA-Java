@@ -1,6 +1,6 @@
 package BitManipulation;
 
-public class clear {
+public class ClearBitt {
 
     public static int clearBit(int number, int position) {
         return number & ~(1 << position);
