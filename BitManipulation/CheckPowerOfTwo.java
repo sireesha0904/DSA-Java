@@ -6,9 +6,9 @@ public class CheckPowerOfTwo {
     
     public static void main(String[] args) {
         int n = 8;
-        System.out.println("Checking power of two: " + isPowerOfTwo(n));
+        System.out.println("Checking power of "+n + " is " + isPowerOfTwo(n));
 
         n = 7;
-        System.out.println("Checking power of two: " + isPowerOfTwo(n));
+        System.out.println("Checking power of "+n + " is " + isPowerOfTwo(n));
     }
 }
