@@ -1,5 +1,5 @@
 package BitManipulation;
-//combinaion of set and clear bit
+//combinaion of set and clear bit is called Updatebit
 public class UpdateBit {
     public static int setBit(int number, int position) {
         return number | (1 << position);
