@@ -1,5 +1,5 @@
 package BitManipulation;
-
+//program to swap two numbers
 public class Swap {
     public static void swap(int a, int b) {
         a = a ^ b;
