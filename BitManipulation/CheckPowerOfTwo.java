@@ -1,4 +1,5 @@
 package BitManipulation;
+//Program to check the power of two
 public class CheckPowerOfTwo {
     public static boolean isPowerOfTwo(int n) {
         return n >0 && (n & (n-1)) == 0;
