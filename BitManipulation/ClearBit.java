@@ -1,5 +1,5 @@
 package BitManipulation;
-
+// Program to clear a Bit 
 public class ClearBit {
 
     public static int clearBit(int number, int position) {
