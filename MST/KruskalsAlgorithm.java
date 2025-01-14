@@ -1,7 +1,7 @@
 package MST;
 
 public class KruskalsAlgorithm {
-    // Represents an edge between two nodes with a weight
+    
     static class Edge {
         int src, dest, weight;
 
