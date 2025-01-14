@@ -1,7 +1,7 @@
 package MST;
 
 public class KruskalsAlgorithm {
-    
+    // Example for Kruskals Algorithm
     static class Edge {
         int src, dest, weight;
 
