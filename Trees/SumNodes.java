@@ -1,5 +1,5 @@
 package Trees;
-
+// progarm to calculate the sun of nodes 
 class Node {
     int data;
     Node left, right;
