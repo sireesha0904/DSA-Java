@@ -13,3 +13,4 @@ public class CheckPowerOfTwo {
         System.out.println("Checking power of "+n + " is " + isPowerOfTwo(n));
     }
 }
+
