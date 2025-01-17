@@ -9,7 +9,7 @@ class Trie {
     private TrieNode root;
 
     public Trie() {
-        root = new TrieNode(); // Initialize the root node
+        root = new TrieNode(); 
     }
 
     // Insert a word into the trie
