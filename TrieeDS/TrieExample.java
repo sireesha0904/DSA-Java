@@ -1,9 +1,5 @@
 package TrieeDS;
 
-import java.util.TreeMap;
-
-import javax.swing.tree.TreeNode;
-
 // Program for insert and search 
 class TrieNode {
     TrieNode[] children = new TrieNode[26];
@@ -67,6 +63,6 @@ public class TrieExample {
         System.out.println(trie.search("orange")); // Output: false
         System.out.println(trie.startsWith("app")); // Output: true
         System.out.println(trie.startsWith("ora")); // Output: false
-        
+
     }
 }
