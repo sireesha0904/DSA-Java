@@ -25,9 +25,9 @@ class Trie {
             if (node.children[index] == null) {
                 node.children[index] = new TrieNode(); //  Create new node if it does not exist
             }
-            node = node.children[index];
+            node = node.children[index]; // Move to the next node
         }
-        node.isEndOfWord = true;
+        node.isEndOfWord = true; // mark the end of word
     }
 
     // Search for a word in the trie
