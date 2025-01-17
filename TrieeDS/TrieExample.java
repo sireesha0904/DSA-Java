@@ -31,12 +31,42 @@ class Trie {
     }
 
     // Search for a word in the trie
-  
+    public boolean search(String word) {
+        TrieNode node = root;
+        for (char c : word.toLowerCase().toCharArray()) {
+            int index = c - 'a';
+            if (node.children[index] == null) {
+                return false;
+            }
+            node = node.children[index];
+        }
+        return node.isEndOfWord;
+    }
+
+    // Search for a prefix in the trie
+    public boolean startsWith(String prefix) {
+        TrieNode node = root;
+        for (char c : prefix.toLowerCase().toCharArray()) {
+            int index = c - 'a';
+            if (node.children[index] == null) {
+                return false;
+            }
+            node = node.children[index];
+        }
+        return true;
+    }
 }
 
 public class TrieExample {
     public static void main(String[] args) {
         Trie trie = new Trie();
+        trie.insert("apple");
+        trie.insert("banana");
+        trie.insert("cherry");
+        System.out.println(trie.search("apple")); // Output: true
+        System.out.println(trie.search("orange")); // Output: false
+        System.out.println(trie.startsWith("app")); // Output: true
+        System.out.println(trie.startsWith("ora")); // Output: false
         
     }
 }
