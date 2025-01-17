@@ -56,13 +56,20 @@ class Trie {
 public class TrieExample {
     public static void main(String[] args) {
         Trie trie = new Trie();
-        trie.insert("apple");
-        trie.insert("banana");
-        trie.insert("cherry");
-        System.out.println(trie.search("apple")); // Output: true
-        System.out.println(trie.search("orange")); // Output: false
-        System.out.println(trie.startsWith("app")); // Output: true
-        System.out.println(trie.startsWith("ora")); // Output: false
+        
+        trie.insert("sireesha");
+        trie.insert("siree");
+        trie.insert("sir");
+
+        System.out.println("Search 'sireesha': " + trie.search("sireesha")); // true
+        System.out.println("Search 'siree': " + trie.search("siree"));       // true
+        System.out.println("Search 'sir': " + trie.search("sir"));           // true
+        System.out.println("Search 'sire': " + trie.search("sire"));         // false
+
+        System.out.println("Prefix 'sire': " + trie.startsWith("sire")); // true
+        System.out.println("Prefix 'si': " + trie.startsWith("si"));     // true
+        System.out.println("Prefix 'sir': " + trie.startsWith("sir"));   // true
+        System.out.println("Prefix 'ree': " + trie.startsWith("ree"));   // false
 
     }
 }
