@@ -2,7 +2,7 @@ package AnalysisOfAlgorithms;
 
 public class ConstTime {
     public static void main(String[] args) {
-        CheckEvenOdd(50);
+        CheckEvenOdd(5);
     }
     
     static void CheckEvenOdd(int n) {
