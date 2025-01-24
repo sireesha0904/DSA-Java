@@ -5,7 +5,6 @@
 📚 **A Complete Collection of Data Structures & Algorithms in Java**  
 🔍 **Master DSA with Optimized Implementations, Explanations & Code**  
 
-![DSA Banner](https://user-images.githubusercontent.com/your-banner-image.png)  
 
 </div>
 
