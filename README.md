@@ -1,25 +1,38 @@
+<div align="center">
+
 # 🚀 DSA-Java  
 
-A **comprehensive collection** of **Data Structures & Algorithms** implemented in **Java**, covering key concepts, optimized solutions, and coding practice. 💡📚  
+📚 **A Complete Collection of Data Structures & Algorithms in Java**  
+🔍 **Master DSA with Optimized Implementations, Explanations & Code**  
+
+![DSA Banner](https://user-images.githubusercontent.com/your-banner-image.png)  
+
+</div>
 
 ---
 
 ## 📌 Topics Covered  
 
-✅ **Time & Space Complexity** (Big-O Notation)  
-✅ **Arrays & Strings** (Sorting, Searching, Two-Pointer, Sliding Window)  
-✅ **Recursion & Backtracking** (Permutations, Combinations, Subsets)  
-✅ **Linked List** (Singly, Doubly, Circular, Fast & Slow Pointer)  
-✅ **Stack & Queue** (Monotonic Stack, Circular Queue, Priority Queue)  
-✅ **Hashing** (HashMaps, HashSets, Collision Handling)  
-✅ **Trees & BST** (Traversal, Height, Balanced Trees)  
-✅ **Heaps & Priority Queues** (Min-Heap, Max-Heap, Heap Sort)  
-✅ **Graphs** (BFS, DFS, Dijkstra, Kruskal, Prim's Algorithm)  
-✅ **Dynamic Programming (DP)** (Memoization, Tabulation, Knapsack, LCS)  
-✅ **Bit Manipulation** (XOR, Bit Masking, Subsets using Bits)  
-✅ **Greedy Algorithms** (Activity Selection, Huffman Coding)  
-✅ **Divide & Conquer** (Merge Sort, Quick Sort, Binary Search)  
-✅ **Trie (Prefix Tree)** (Word Search, Auto-complete)  
+📊 **Complexity Analysis** – Time & Space Complexity (Big-O)  
+📝 **Arrays & Strings** – Sorting, Searching, Two-Pointer, Sliding Window  
+🔄 **Recursion & Backtracking** – Permutations, Combinations, Subsets  
+🔗 **Linked List** – Singly, Doubly, Circular, Fast & Slow Pointer  
+📦 **Stack & Queue** – Monotonic Stack, Circular Queue, Priority Queue  
+🗄 **Hashing** – HashMaps, HashSets, Collision Handling  
+🌳 **Trees & BST** – Traversal, Height, Balanced Trees  
+📊 **Heaps & Priority Queues** – Min-Heap, Max-Heap, Heap Sort  
+🌍 **Graphs** – BFS, DFS, Dijkstra, Kruskal, Prim's Algorithm  
+🎯 **Dynamic Programming (DP)** – Memoization, Tabulation, LCS  
+⚡ **Bit Manipulation** – XOR, Bit Masking, Subsets using Bits  
+💡 **Greedy Algorithms** – Activity Selection, Huffman Coding  
+🌀 **Divide & Conquer** – Merge Sort, Quick Sort, Binary Search  
+🔠 **Trie (Prefix Tree)** – Word Search, Auto-complete  
+
+---
+
+## 📂 Repository Structure  
+
+
 
 ---
 ## 🚀 How to Use?  
