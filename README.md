@@ -36,13 +36,6 @@
 - ✔ Java IDE (IntelliJ IDEA, Eclipse, VS Code)
 - ✔ Basic Knowledge of Java & DSA
 
-## ✨ Why is this README better?
-- ✅ Well-Structured & Attractive
-- ✅ Includes Icons & Emojis
-- ✅ Easy to Read & Navigate
-- ✅ Includes Banners & Contact Info
-- ✅ Professional & Eye-Catching
-
 ## ⭐ Show Your Support
 If you find this repository useful, please 🌟 **Star** this repo to keep me motivated!
 
