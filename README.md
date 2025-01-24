@@ -41,9 +41,16 @@ If you find this repository useful, please 🌟 **Star** this repo to keep me mo
 
 
 ---
-## 🚀 How to Use?  
+## 🚀 Getting Started  
 
-1️⃣ **Clone the Repository**  
-```sh
+### 📥 Clone the Repository  
+sh
 git clone https://github.com/your-username/DSA-Java.git
-
+📌 Navigate to the Desired Folder
+sh
+Copy
+Edit
+cd DSA-Java
+🏃 Run and Test Java Programs
+Open in IntelliJ IDEA, Eclipse, or VS Code
+Execute Java files to test algorithm
