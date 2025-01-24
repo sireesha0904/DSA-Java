@@ -4,7 +4,7 @@ public class Linear {
     static void linearSearch(String[] arr, String target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
-                System.out.println("Branch is : " + i);
+                System.out.println("Branch is : " + arr[i]);
                 return;
             }
         }
