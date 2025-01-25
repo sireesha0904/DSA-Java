@@ -42,7 +42,7 @@ class BFSGraph {
      }
     public static void main(String[] args) {
         BFSGraph grap = new BFSGraph(6);
-         // Add edges to the graph
+         
     grap.addEdge(0, 1);
     grap.addEdge(0, 2);
     grap.addEdge(1, 3);
