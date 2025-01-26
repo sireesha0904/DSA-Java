@@ -1,5 +1,5 @@
 package AnalysisOfAlgorithms;
-
+// Program for O(n) analysis
 public class Linear {
     static void linearSearch(String[] arr, String target) {
         for (int i = 0; i < arr.length; i++) {
