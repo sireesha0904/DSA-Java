@@ -1,5 +1,5 @@
 package AnalysisOfAlgorithms;
-
+// Program for O(1) analysis
 public class ConstTime {
     public static void main(String[] args) {
         CheckEvenOdd(5);
