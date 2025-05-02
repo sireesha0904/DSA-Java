@@ -9,3 +9,4 @@ public class StarPattern {
         }
     }
 }
+//star pattern
